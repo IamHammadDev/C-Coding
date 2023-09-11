@@ -15,7 +15,5 @@ int main()
 	cout<<"				              **          **";cout<<endl;
 	cout<<"				                **      **";cout<<endl;
 	cout<<"					          ******";cout<<endl;
-//	cout<<"					            **  **";cout<<endl;
-//	cout<<"					              **";cout<<endl;
 	return 0;
 }
