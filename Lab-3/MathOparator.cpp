@@ -18,26 +18,26 @@ int main() {
 	{
 		add(num1, num2);
 	}
-	else if(op == '-')
+	if(op == '-')
 	{
 		subt(num1, num2);
 	}
-	else if(op == '*')
+	if(op == '*')
 	{
 		mult(num1, num2);
 	}
-	else if(op == '/')
+	if(op == '/')
 	{
 		divi(num1, num2);
 	}
-	else if(op == '%')
+	if(op == '%')
 	{
 		modulu(num1, num2);
 	}
-	else
-	{
-		cout<<"You have not enter the correct operator";
-	}
+//	else
+//	{
+//		cout<<"You have not enter the correct operator";
+//	}
     return 0;
 }
 void add(int num1, int num2)

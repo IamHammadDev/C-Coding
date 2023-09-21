@@ -18,15 +18,16 @@ int main() {
 			cout << "Total price is greater than $500." << endl;
             break;
 		}
-//		else if(totalPrice < 500)
-//		{
-//			cout << "Current total price: $ " << totalPrice << endl;
-//			break;
-//		}
+		else if(totalPrice < 500)
+		{
+			cout << "Current total price: $ " << totalPrice << endl;
+			break;
+		}
 		else {
             cout << "Current total price: $ " << totalPrice << endl;
         }
 	}
     return 0;
 }
+
 
