@@ -12,7 +12,7 @@ int main()
 		cout << "You have entered the: "<< x <<" in the small-Case!";
 	}	
 	else{
-		cout << "You have not entered the Alphabet! Please Enter the alphabet to check the validity" << x << endl;
+		cout << "You have not entered the Alphabet! Please Enter the alphabet to check the validity: " << x << endl;
 	}
 		
 	return 0;
