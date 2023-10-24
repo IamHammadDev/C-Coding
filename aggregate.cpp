@@ -19,7 +19,7 @@ int main() {
     cin >> ecatMarks;
 
     // Calculate the aggregate score
-    aggregateScore = (matricMarks / 1100) * 0.25 + (intermediateMarks / 510) * 0.45 + (ecatMarks / 400) * 0.33;
+    aggregateScore = (matricMarks / 1100) * 0.25 + (intermediateMarks / 510) * 0.45 + (ecatMarks / 400) * 0.30;
 	cout<<"Your total aggregate: "<< aggregateScore * 100 << endl;
     // Check eligibility
     if (aggregateScore * 100 >= 69) {

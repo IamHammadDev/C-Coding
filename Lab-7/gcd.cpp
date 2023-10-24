@@ -3,9 +3,9 @@ using namespace std;
 // Function to calculate the Greatest Common Divisor (GCD) using Euclidean Algorithm
 int gcd(int a, int b) {
     while (b != 0) {
-        int temp = b;
+        int gc = b;
         b = a % b;
-        a = temp;
+        a = gc;
     }
     return a;
 }

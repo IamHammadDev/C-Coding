@@ -48,7 +48,8 @@ main()
 	
 
 void gotoxy(int x , int y )
-{COORD coordinates;
+{
+COORD coordinates;
 coordinates.X= x;
 coordinates.Y= y;
 
