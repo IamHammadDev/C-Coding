@@ -30,7 +30,7 @@ int main() {
 		}
 		else 
 		{
-			gamerunning= false;
+			gameRunning= false;
 
 		}
             
@@ -56,7 +56,7 @@ int main() {
 	}
 	if(GetAsyncKeyState(VK_ESCAPE))
 	{
-		gamerunning= false;
+		gameRunning= false;
 	}
 	Sleep(100); // INDICATE THE SPEED OF PACMAN
 
