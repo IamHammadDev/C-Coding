@@ -74,13 +74,12 @@ else
 		cout<<"P";
 	   } 
 	     
-	void gotoxy(int x , int y ) // FOR DTERMINING COORDINATES
-{COORD coordinates;
-coordinates.X= x;
-coordinates.Y= y;
-
-
-SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coordinates);
+void gotoxy(int x , int y ) // FOR DTERMINING COORDINATES
+{
+		COORD coordinates;
+		coordinates.X= x;
+		coordinates.Y= y;
+		SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coordinates);
 }
 
     char GetCharAtxy(short int x , short int y)    // to read specific characters on screen

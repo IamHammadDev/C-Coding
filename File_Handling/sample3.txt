@@ -1,2 +1,2 @@
 This is my first file created using File Handling in c++
-kjhgriogeriojgeruiogwirjgwioerjfgiowerjfoi 
+Hello! My name is Ali. I am a CS student. I am studying in RCET, GRW 

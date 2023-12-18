@@ -1,0 +1,24 @@
+A pointer to a constant in C++ is a pointer that can be modified to point to different memory locations, but the data at the memory location it points to is considered constant and cannot be modified through that pointer. The const keyword is used to indicate that the data being pointed to is constant.
+#include <iostream>
+
+int main() {
+    int variable = 42;
+    
+    // Pointer to a constant integer
+    int const* ptr = &variable;
+
+    // Accessing the value through the pointer to a constant
+    std::cout << "Value through pointer to a constant: " << *ptr << std::endl;
+
+    // The following line is allowed, as it modifies the variable
+    variable = 99;
+
+    // Accessing the modified value through the pointer to a constant
+    std::cout << "Modified value through pointer to a constant: " << *ptr << std::endl;
+
+    // The following line would result in a compilation error
+    // because we cannot modify the data through the pointer to a constant.
+    // *ptr = 88;
+
+    return 0;
+}

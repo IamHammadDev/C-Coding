@@ -9,7 +9,7 @@ int main(){
 	newFile.open("F:\\UET LAHORE\\Programing Fundamental-Lab\\File_Handling\\sample3.txt");
 	if(newFile.is_open()){
 	newFile<<"This is my first file created using File Handling in c++"<<endl;
-	newFile<<"kjhgriogeriojgeruiogwirjgwioerjfgiowerjfoi "<<endl;
+	newFile<<"Hello! My name is Ali. I am a CS student. I am studying in RCET, GRW "<<endl;
 	newFile.close();
 	cout<<"OMG!, My first file has been created successfully!"<<endl;
 	}else{
